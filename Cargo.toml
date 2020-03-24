@@ -77,6 +77,13 @@ textwrap = "0.9"
 toml = "0.5.6"
 verification = { path = "ethcore/verification" }
 
+[patch.crates-io]
+ring = { path = "../ring" }
+ethereum-types = { path = "../parity-common/ethereum-types" }
+primitive-types = { path = "../parity-common/primitive-types" }
+rlp = { path = "../parity-common/rlp" }
+ethbloom = { path = "../parity-common/ethbloom" }
+
 [build-dependencies]
 rustc_version = "0.2"
 
