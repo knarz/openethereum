@@ -83,6 +83,11 @@ ethereum-types = { path = "../parity-common/ethereum-types" }
 primitive-types = { path = "../parity-common/primitive-types" }
 rlp = { path = "../parity-common/rlp" }
 ethbloom = { path = "../parity-common/ethbloom" }
+rocksdb = { git = "https://github.com/knarz/rust-rocksdb", branch = "bigendian" }
+kvdb = { path = "../parity-common/kvdb" }
+kvdb-rocksdb = { path = "../parity-common/kvdb-rocksdb" }
+kvdb-memorydb = { path = "../parity-common/kvdb-memorydb" }
+plain_hasher = { path = "../parity-common/plain_hasher" }
 
 [build-dependencies]
 rustc_version = "0.2"

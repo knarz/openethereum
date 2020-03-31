@@ -7,4 +7,4 @@ license = "GPL-3.0"
 
 [dependencies]
 ethereum-types = "0.8.0"
-plain_hasher = "0.2"
+plain_hasher = "0.2.2"
