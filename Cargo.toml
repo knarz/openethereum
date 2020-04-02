@@ -78,7 +78,7 @@ toml = "0.5.6"
 verification = { path = "ethcore/verification" }
 
 [patch.crates-io]
-ring = { path = "../ring" }
+ring = { git = "https://github.com/knarz/ring", branch = "bigendian" }
 ethereum-types = { path = "../parity-common/ethereum-types" }
 primitive-types = { path = "../parity-common/primitive-types" }
 rlp = { path = "../parity-common/rlp" }
